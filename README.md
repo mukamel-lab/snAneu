@@ -15,6 +15,9 @@ To run the pipeline:
   <li> Merge binc files into a table containing all cells for one sample. NOTE: Need to set the path to the : <p><code>python 01.binc.py</p></code></li>
     <li><code>01.binc2data.ipynb</code></li>
 </ul>  
-5. sdlfkj
-6. 
+5. Run ginkgo: <code>02.ginkgo.sh SAMPLE_DIR</code>
+6. Find "bad bins" with poor mappability and inconsistent coverage: <code>03.badbins.ipynb</code>
+7. <code>04.run_CNV_caller.sh SAMPLE_DIR</code>
+8. <code>05.calculate_MAD.ipynb</code>
+9. Example notebook for downstream analysis: <code>Ginkgo_CEMBA_March2022.ipynb</code>
     
