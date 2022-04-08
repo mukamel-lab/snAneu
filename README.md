@@ -12,7 +12,7 @@ To run the pipeline:
 4. Create a cell-by-bin table of coverage:
 <ul>
   <li>Convert allc files to binc files. Alternatively: <p> <code>01.allc2binc.sh BINSIZE ALLC_FILENAME</code></p></li>
-  <li> Merge binc files into a table containing all cells for one sample. NOTE: Need to set the path to the : <p><code>python 01.binc.py</p></code></li>
+  <li> Merge binc files into a table containing all cells for one sample. NOTE: Need to set the path to the : <p><code>python 01.binc.py</code></p></li>
     <li><code>01.binc2data.ipynb</code></li>
 </ul>  
 5. Run ginkgo: <code>02.ginkgo.sh SAMPLE_DIR</code>
