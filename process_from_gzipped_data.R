@@ -1,5 +1,9 @@
 #!/usr/bin/env Rscript
 
+# This script was modified from the original Ginkgo software by Eran Mukamel.
+# The modifications handle processing coverage data created from allc tables,
+# rather than counting from bam files.
+
 # ==============================================================================
 # == Main CNV analysis script
 # ==============================================================================
